@@ -83,7 +83,8 @@ export function Partners({ config }: { config: LandingConfig }) {
                   <a
                     href={`/${partner.id}`}
                     className={styles.offerCta}
-                    rel="nofollow sponsored noopener"
+                    target="_blank"
+                    rel="noopener noreferrer sponsored nofollow"
                   >
                     {partners.play} {partner.name}
                   </a>
