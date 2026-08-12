@@ -16,7 +16,7 @@ export function buildMetadata(config: LandingConfig): Metadata {
     keywords: site.keywords,
     authors: [{ name: site.domain }],
     verification: {
-      google: "GxiYbWy7_DDCh1HMc1Nd9Jwi2uptCYy23hnBdFfvvlw",
+      google: "T4eZe_y_Yb1ANOtDrIlq4CpEs7v8gzcGpIz7K3prXno",
       yandex: "3ed97ee63c4ec225",
     },
     alternates: {
