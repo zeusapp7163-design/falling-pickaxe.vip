@@ -57,7 +57,7 @@ export const AFFILIATE_LINKS_ENABLED = true;
 
 export const PARTNER_DESTINATIONS: Record<string, string> = {
   "1win":
-    "https://one-vv6649.com/casino/list?open=register&sub1=fallingpickaxe",
+    "https://one-vv6649.com/casino/list?open=register&sub1=fa",
   jetton:
     "https://jtbetlab.click/ch7v2YRRqma?click_id={click_id}&target_id=/&target_type=registration",
   stake: "https://stake3098.com/?c=blackDemo",
