@@ -17,7 +17,7 @@ export function buildMetadata(config: LandingConfig): Metadata {
     authors: [{ name: site.domain }],
     verification: {
       google: "GxiYbWy7_DDCh1HMc1Nd9Jwi2uptCYy23hnBdFfvvlw",
-      yandex: "392d368eeaf27d88",
+      yandex: "3ed97ee63c4ec225",
     },
     alternates: {
       canonical: pageUrl,
