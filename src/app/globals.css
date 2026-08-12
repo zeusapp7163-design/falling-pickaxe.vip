@@ -1,0 +1,110 @@
+﻿@import "tailwindcss";
+
+:root {
+  --bg: #121820;
+  --bg-deep: #0d141c;
+  --surface: #1a222c;
+  --surface-soft: #151c26;
+  --fg: #f4f6f8;
+  --muted: #a4aebc;
+  --line: rgba(255, 255, 255, 0.1);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --accent: #f5c518;
+  --accent-hot: #ffdc54;
+  --game-sky: #6ec8ff;
+  --game-ore: #c87941;
+  --game-sand: #e8c36a;
+  --game-grass: #5fbf8a;
+  --content-width: 82.5rem;
+  --partner-width: 90rem;
+  --page-gutter: 0.875rem;
+  --section-space: clamp(3rem, 7vw, 6.5rem);
+  --header-height: 4rem;
+  --radius: 1rem;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-manrope);
+  --font-display: var(--font-unbounded);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --page-gutter: 1.5rem;
+    --radius: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --page-gutter: 2rem;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  overflow-x: hidden;
+  background:
+    radial-gradient(120% 70% at 50% -10%, rgba(110, 200, 255, 0.18), transparent 55%),
+    radial-gradient(80% 50% at 100% 20%, rgba(200, 121, 65, 0.12), transparent 45%),
+    radial-gradient(70% 45% at 0% 60%, rgba(95, 191, 138, 0.08), transparent 50%),
+    linear-gradient(180deg, #182230 0%, var(--bg) 28%, var(--bg-deep) 100%);
+  background-attachment: fixed;
+  color: var(--fg);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(245, 197, 24, 0.35);
+  color: #fff;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

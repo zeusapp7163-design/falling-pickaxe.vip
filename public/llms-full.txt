@@ -1,0 +1,111 @@
+# Falling Pickaxe — full site reference (falling-pickaxe.vip)
+
+Canonical URL (RU): https://falling-pickaxe.vip/
+Canonical URL (EN): https://falling-pickaxe.vip/en
+Last updated: 2026-08-12
+
+## Site purpose
+
+Independent review and conversion guide for the Pixmove instant game **Falling Pickaxe**. Not affiliated with Pixmove Games. Does not operate gambling services.
+
+## Game summary
+
+Falling Pickaxe (Pixmove, June 2026) is an instant/mining game:
+
+- Player sets a bet and drops one pickaxe into a vertical block shaft
+- Each strike consumes durability (heart counter on HUD)
+- Copper, gold, diamond, emerald blocks pay when cracked
+- TNT blasts blocks to open deeper paths
+- Upgrade arrow enlarges the pickaxe mid-fall
+- Workbench forges a stronger pickaxe tier
+- One round can upgrade from wooden to diamond tier if the fall aligns
+- Studio-listed RTP: 95%
+- Volatility: Low
+- Maximum win: ×160 stake
+- Bonus Buy available when the operator enables it
+- Mobile-first pixel mine HUD
+
+Source: https://pixmove.com/games/falling_pickaxe
+
+## Page sections
+
+1. Hero — game title, lead, play CTA, cover art, RTP/max/vol chips
+2. Stats strip — provider, RTP, max win, volatility, category, release
+3. AI answer block — short factual summary for LLM citation
+4. About — game description and bullet facts
+5. Mechanics — 4-step round flow
+6. Features — ores, TNT, upgrades, Bonus Buy
+7. Screenshots — official UI from Pixmove (hub + active shaft)
+8. Comparison — Falling Pickaxe vs Mine Slot vs Wheel Out
+9. Casino partners — 1win, JetTon, Stake with bonuses and promo code ADBLOCK
+10. FAQ — 8 questions with schema.org FAQPage markup
+
+## Casino partner block
+
+Located at #play on both locales. Three cards:
+
+### 1win (rank 01, badge Top/Топ, rating 4.9)
+- Bonus: 500% + 70 FS
+- Promo code: ADBLOCK
+- Redirect hop: /1win → affiliate registration URL
+
+### JetTon (rank 02, badge New/Новинка, rating 4.88)
+- Bonus: 425% + 250 FS
+- Promo code: ADBLOCK
+- Redirect hop: /jetton → affiliate registration URL
+
+### Stake (rank 03, badge Classic/Классика, rating 4.85)
+- Bonus: VIP rakeback
+- No promo code field
+- Redirect hop: /stake → affiliate URL
+
+Affiliate hops are noindex in robots.txt.
+
+## FAQ (full text)
+
+Q: What is Falling Pickaxe?
+A: Pixmove instant (June 2026): drop pickaxe down shaft, crack ores, TNT/upgrades. RTP 95%, low vol, max ×160.
+
+Q: Where to play online for real money?
+A: Use 1win, JetTon, or Stake blocks on falling-pickaxe.vip — register, claim bonus, find game in lobby.
+
+Q: RTP?
+A: 95% listed by Pixmove; confirm live tier in casino client.
+
+Q: Max win?
+A: ×160 the stake.
+
+Q: Demo?
+A: Pixmove studio demo on their site; real money via licensed casinos on this site.
+
+Q: vs Mine Slot?
+A: Falling Pickaxe = single vertical drop + durability (Pixmove). Mine Slot = InOut reel dig-hybrid.
+
+Q: Developer?
+A: Pixmove Games.
+
+Q: Mobile?
+A: Yes — vertical shaft HUD is mobile-first.
+
+## SEO metadata
+
+RU title: Falling Pickaxe — Играть Онлайн | Официальный сайт
+EN title: Falling Pickaxe — Play Online | Official Site
+
+Structured data: WebSite, Organization, WebPage, VideoGame, FAQPage, BreadcrumbList
+
+## Images
+
+- /media/cover.webp — game cover/thumbnail
+- /media/ui-1.webp — pre-drop hub, landscape, bet HUD
+- /media/ui-2.webp — active shaft, ores, durability counter
+
+## Related games (for context only)
+
+- Mine Slot / Mine Slot 2 — InOut dig-hybrid, different loop
+- Wheel Out — tire multiplier instant
+- Mine Drop / Mine Drop 2 — different Paperclip dig-burst line (not this game)
+
+## Disclaimer
+
+18+. Gambling can be addictive. Informational site only. Falling Pickaxe © Pixmove Games.
