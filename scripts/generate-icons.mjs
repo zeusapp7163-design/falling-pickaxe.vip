@@ -21,9 +21,15 @@ for (const { name, size } of sizes) {
   console.log(`wrote ${name} (${size}px)`);
 }
 
-await sharp(cover)
+const favicon32 = await sharp(cover)
   .resize(32, 32, { fit: "cover", position: "centre" })
   .png()
-  .toFile(path.join(root, "public/favicon.ico"));
+  .toBuffer();
 
-console.log("wrote public/favicon.ico");
+await Promise.all([
+  sharp(favicon32).toFile(path.join(root, "public/favicon.ico")),
+  sharp(favicon32).toFile(path.join(appDir, "favicon.ico")),
+  sharp(favicon32).toFile(path.join(root, "public/favicon-32.png")),
+]);
+
+console.log("wrote favicon.ico + favicon-32.png");
