@@ -292,6 +292,13 @@ export const enConfig = {
       play: "Play at",
       legal: "18+ · Play responsibly",
     },
+    ageGate: {
+      title: "Are you 18 or older?",
+      text: "Access to platforms is available to adults only. Please play responsibly.",
+      confirm: "Yes, I am 18+",
+      deny: "No",
+      denied: "Access is limited to users aged 18+.",
+    },
     faq: {
       eyebrow: "FAQ",
       title: "Quick answers",
