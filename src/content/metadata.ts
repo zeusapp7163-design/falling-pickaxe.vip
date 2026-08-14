@@ -43,8 +43,9 @@ export function buildMetadata(config: LandingConfig): Metadata {
     robots: { index: true, follow: true },
     icons: {
       icon: [
+        { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
         { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
-        { url: game.cover, type: "image/webp" },
+        { url: "/favicon-120.png", sizes: "120x120", type: "image/png" },
       ],
       apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
       shortcut: ["/favicon.ico"],

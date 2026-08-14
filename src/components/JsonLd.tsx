@@ -32,6 +32,12 @@ export function buildPageSchemas(config: LandingConfig) {
       name: site.domain,
       url: site.url,
       description: ai.trust,
+      logo: {
+        "@type": "ImageObject",
+        url: `${site.url}/favicon-120.png`,
+        width: 120,
+        height: 120,
+      },
     },
     {
       "@context": "https://schema.org",
@@ -62,8 +68,8 @@ export function buildPageSchemas(config: LandingConfig) {
       primaryImageOfPage: {
         "@type": "ImageObject",
         url: `${site.url}${game.cover}`,
-        width: 408,
-        height: 546,
+        width: 384,
+        height: 516,
       },
     },
     {

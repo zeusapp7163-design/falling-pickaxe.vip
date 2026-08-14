@@ -9,15 +9,17 @@ const appDir = path.join(root, "src/app");
 await mkdir(appDir, { recursive: true });
 
 const sizes = [
-  { name: "icon.png", size: 32 },
-  { name: "apple-icon.png", size: 180 },
+  { name: "icon.png", size: 32, dir: appDir },
+  { name: "apple-icon.png", size: 180, dir: appDir },
+  { name: "favicon-32.png", size: 32, dir: path.join(root, "public") },
+  { name: "favicon-120.png", size: 120, dir: path.join(root, "public") },
 ];
 
-for (const { name, size } of sizes) {
+for (const { name, size, dir } of sizes) {
   await sharp(cover)
     .resize(size, size, { fit: "cover", position: "centre" })
     .png()
-    .toFile(path.join(appDir, name));
+    .toFile(path.join(dir, name));
   console.log(`wrote ${name} (${size}px)`);
 }
 
@@ -29,7 +31,6 @@ const favicon32 = await sharp(cover)
 await Promise.all([
   sharp(favicon32).toFile(path.join(root, "public/favicon.ico")),
   sharp(favicon32).toFile(path.join(appDir, "favicon.ico")),
-  sharp(favicon32).toFile(path.join(root, "public/favicon-32.png")),
 ]);
 
-console.log("wrote favicon.ico + favicon-32.png");
+console.log("wrote favicon.ico");

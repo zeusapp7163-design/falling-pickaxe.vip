@@ -22,3 +22,6 @@ npm-debug.log*
 # typescript
 next-env.d.ts
 *.tsbuildinfo
+
+.vercel
+.env*
