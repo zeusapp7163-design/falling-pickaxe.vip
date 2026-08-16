@@ -60,5 +60,5 @@ export const PARTNER_DESTINATIONS: Record<string, string> = {
     "https://one-vv6649.com/casino/list?open=register&sub1=fa",
   jetton:
     "https://jtbetlab.click/ch7v2YRRqma?click_id={click_id}&target_id=/&target_type=registration",
-  stake: "https://stake3098.com/?c=blackDemo",
+  stake: "https://stake3088.com/?c=blackDemo",
 };
